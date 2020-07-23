@@ -1,27 +1,16 @@
-# test
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+  utils/filters.js
+  1.日期处理
+  2.时间处理
+  3.去除空格 
+  4.字母大小写切换
+  5.保留两位小数
+  
+  utils/util.js
+  1.根据当前时间提示信息
+  2.多次点击提示语或看时间长提示语
+  3.过滤对象中为空的属性
+  4.随机生成数字
+  5.随机生成字符串
+  6.随机生成uuid 唯一性
+  7.获取当前滚动条位置 返回{x:0,y:0}
+  8.深克隆
