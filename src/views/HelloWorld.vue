@@ -6,11 +6,12 @@
   <div>{{x | toDecimal2()}}</div>
   <div>{{hours}}</div>
   <div>{{welcome}}</div>
-  <div>{{}}</div>
+  <div v-time="timeNow"></div>
 </div>
 </template>
 
 <script>
+import '@/utils/time.js'
 import { normalTime,trim } from '@/utils/filters'
 import { timeFix,welcome,filterObj,randomNumber,randomString,randomUUID,getScrollPosition,clone } from '@/utils/util'
 export default {
@@ -23,6 +24,7 @@ export default {
       x:566,
       hours:'',
       welcome:'',
+      timeNow: '2020-07-23 11:41:00'
     };
   },
   mounted() {
